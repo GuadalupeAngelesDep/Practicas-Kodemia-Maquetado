@@ -1,0 +1,43 @@
+header{
+    background-color: rgb(105, 219, 82);
+    padding: 10px;
+    padding-bottom: 30px;
+}
+nav{
+    background-color: rgb(73, 205, 66);
+    color: white;
+    padding: 4px;
+    border-radius: 15px;
+}
+
+aside{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    width: 25%;
+    margin: 0px 10px;
+    
+}
+#Principal{
+    display: flex;
+    padding: 20px 0px;
+}
+main{
+    background-color: red;
+    color: white;
+    width:50%;
+    padding: 20px;
+}
+
+article{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 5px;
+    margin: 2%;
+    border-radius: 10px;
+}
+footer{
+    background-color: rgb(186, 123, 244);
+    color: white;
+    padding: 20px;
+}
