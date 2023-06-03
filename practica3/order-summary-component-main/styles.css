@@ -7,7 +7,7 @@
     font-family: Red-hat;
     text-align: center;
     text-decoration: none;
-    color: hsl(223, 47%, 23%)
+    color: hsl(223, 47%, 23%);
 }
 
 .title__1 {
@@ -76,7 +76,7 @@ body {
 }
 
 .payment__button:hover{
-    box-shadow: 5px 5px 30px -3px rgb(144, 98, 204);
+    box-shadow: 5px 5px 30px -3px rgba(74, 144, 236, 0.809);
 }
 .button_cancel:hover{
     font-weight: 1000;
