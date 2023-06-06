@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Open_sans;
+    src: url(./huddle-landing-page-with-single-introductory-section-master/Font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    font-family: Open_sans;
+    color: white;
+}
+
+body {
+    background-image: url(./huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    padding: 10px;
+}
+.logo {
+    width: 50vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img_illustration {
+    width: 100vw;
+    margin-right: 40px;
+}
+
+#title {
+    font-size: 30px;
+}
+
+.principal{
+    text-align: center;
+}
+.registrer_button{
+    width: 180px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 25px;
+    color: hsl(257, 40%, 49%) ;
+}
+.registrer_button:hover{
+    box-shadow: 5px 5px 30px -3px hsl(300, 69%, 71%);   
+}
+.sociales{
+    display: flex;
+    justify-content: flex-end;
+}
+.sociales ul{
+    list-style: none;
+}
+.sociales ul li{
+    width: 45px;
+    height: 45px;
+    line-height: 57px;
+    margin:  20px;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid white ;
+    float: left;
+}
+.sociales ul li:hover{
+    box-shadow: 5px 5px 30px -3px hsl(300, 69%, 71%);   
+
+}
+
+@media only screen and (min-width:768px) {
+    body {
+        background-image: url(./huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg);
+    }
+
+    .logo {
+        width: 10vw;
+    }
+
+    .img_illustration {
+        width: 50vw;
+    }
+
+    .principal {
+        margin: 5vw;
+        display: flex;
+    }
+    .sociales{
+        justify-content: flex-end;
+    }
+    .description{
+        width: 30vw;
+        padding-top: 200px;
+    }
+    
+}

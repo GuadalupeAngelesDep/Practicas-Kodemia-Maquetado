@@ -1,0 +1,20 @@
+.container_targets {
+    display: flex;
+    justify-content: center;
+}
+
+.size_tarjet {
+    width: 200px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.target_1 {
+    height: 300px;
+    background-image: radial-gradient(circle at 119.68% 50%,
+            #a0f5a8 0, #92f7b2 7.14%, #83f8bc 14.29%, #72f9c7 21.43%,
+            #61fad3 28.57%, #4dfbde 35.71%, #35fbea 42.86%,
+            #0bfbf5 50%, #00fbff 57.14%, #00faff 64.29%, #00f9ff 71.43%,
+            #00f8ff 78.57%, #00f7ff 85.71%, #00f5ff 92.86%, #2ff3ff 100%);
+}
